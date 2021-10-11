@@ -12,7 +12,8 @@
 	"author": "Anton Larichev",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"tslog": "^3.2.2"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.13"
