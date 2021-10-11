@@ -3,9 +3,10 @@
 	"version": "1.0.0",
 	"description": "API для учебного проекта 4-NodeJS",
 	"main": "index.js",
-	"type": "module",
+	"type": "commonjs",
 	"scripts": {
-		"start": "node ./dist/index.js",
+		"start": "node ./dist/main.js",
+		"build": "tsc",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Anton Larichev",
