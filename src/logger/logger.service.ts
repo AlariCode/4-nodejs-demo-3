@@ -12,20 +12,20 @@ export class LoggerService implements ILogger {
 			displayInstanceName: false,
 			displayLoggerName: false,
 			displayFilePath: 'hidden',
-			displayFunctionName: false
+			displayFunctionName: false,
 		});
 	}
 
-	log(...args: unknown[]) {
+	log(...args: unknown[]): void {
 		this.logger.info(...args);
 	}
 
-	error(...args: unknown[]) {
+	error(...args: unknown[]): void {
 		// отправка в sentry / rollbar
 		this.logger.error(...args);
 	}
 
-	warn(...args: unknown[]) {
+	warn(...args: unknown[]): void {
 		this.logger.warn(...args);
 	}
 }
