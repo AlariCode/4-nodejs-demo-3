@@ -4,3 +4,4 @@
 /.env
 /prisma/dev.db
 /prisma/dev.db-journal
+.idea
